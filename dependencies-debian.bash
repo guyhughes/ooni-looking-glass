@@ -8,6 +8,6 @@ if [[ `id -u` != 0 ]]; then
   exit 127
 fi
 
-apt-get install python3 python3-pip python3-numpy python3-flask
+apt-get install python3 python3-pip python3-numpy python3-flask python3-yaml
 pip3 install vincent
 
